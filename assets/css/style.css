@@ -327,7 +327,7 @@ h6 {
 #hero {
   width: 100%;
   height: 40vh;
-  background: url("../img/sea.jpg") center center;
+  background: url("../img/download.jpg") center center;
   background-size: cover;
   position: relative;
   margin-top: 70px;
@@ -456,6 +456,7 @@ section {
 /*--------------------------------------------------------------
 # What We Do
 --------------------------------------------------------------*/
+
 .what-we-do .icon-box {
   text-align: center;
   padding: 30px 20px;
@@ -550,105 +551,184 @@ section {
   color: #ffc0cb;
 }
 
+
+
+
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
 .team .member {
-  position: relative;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 30px;
-  -ms-flex-item-align: center !important;
-  align-self: center !important;
-
+  margin-bottom: 20px;
+  overflow: hidden;
   border-radius: 5px;
   background: #fff;
-  transition: 0.5s;
 }
 
-.team .member .pic {
-  overflow: hidden;
-  width: 180px;
-  border-radius: 50%;
-}
-
-.team .member .pic img {
-  transition: ease-in-out 0.3s;
-}
-
-.team .member:hover {
-  transform: translateY(-10px);
-}
-
-.team .member .member-info {
-  padding-left: 30px;
-}
-
-.team .member h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 20px;
-  color: #ee264d;
-}
-
-.team .member span {
-  display: block;
-  font-size: 15px;
-  padding-bottom: 10px;
+.team .member .member-img {
   position: relative;
-  font-weight: 500;
-}
-
-.team .member span::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 1px;
-  background: #cbd6e9;
-  bottom: 0;
-  left: 0;
-}
-
-.team .member p {
-  margin: 10px 0 0 0;
-  font-size: 14px;
+  overflow: hidden;
 }
 
 .team .member .social {
-  margin-top: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  right: 0;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  text-align: center;
 }
 
 .team .member .social a {
-  transition: ease-in-out 0.3s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  transition: color 0.3s;
+  color: #111111;
+  margin: 0 3px;
+  padding-top: 7px;
   border-radius: 50px;
-  width: 32px;
-  height: 32px;
-  background: #eff2f8;
-}
-
-.team .member .social a i {
-  color: #ee264d;
-  font-size: 16px;
-  margin: 0 2px;
-}
-
-.team .member .social a:hover {
-  background: #fd4b6f;
-}
-
-.team .member .social a:hover i {
+  width: 36px;
+  height: 36px;
+  background: #e03a3c;
+  display: inline-block;
+  transition: ease-in-out 0.3s;
   color: #fff;
 }
 
-.team .member .social a+a {
-  margin-left: 8px;
+.team .member .social a:hover {
+  background: #111111;
 }
+
+.team .member .social i {
+  font-size: 18px;
+}
+
+.team .member .member-info {
+  padding: 25px 15px;
+}
+
+.team .member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #111111;
+}
+
+.team .member .member-info span {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaaaaa;
+}
+
+.team .member .member-info p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  color: #777777;
+}
+
+.team .member:hover .social {
+  opacity: 1;
+  bottom: 15px;
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+# EVENTS,.. BUT TAG IS TEAM
+--------------------------------------------------------------*/
+.team {
+  background:transparent;
+  padding-bottom: 10px;
+}
+
+.team .member {
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.team .member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+.team .member .member-info h4 {
+  font-weight: 800;
+  margin: 0px 0 0px 0;
+  font-size: 18px;
+}
+
+.team .member .member-info span {
+  display: block;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: #68A4C4;
+}
+
+.team .member .member-info p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  color: #666;
+}
+
+.team .member:hover .social {
+  bottom: 0;
+  opacity: 1;
+  transition: bottom ease-in-out 0.4s;
+}
+
+
+	.portfolio {
+	  padding: 6%;
+	  text-align: center;
+	}
+
+	.heading {
+	  background: #fff;
+	  padding: 1%;
+	  text-align: left;
+	  box-shadow: 0px 0px 4px 0px #545b62;
+	}
+
+	.heading img {
+	  width: 10%;
+	}
+
+	.bio-info {
+	  padding: 5%;
+	  background: #fff;
+	  box-shadow: 0px 0px 4px 0px #b0b3b7;
+	}
+
+	.name {
+	  font-family: 'Charmonman', cursive;
+	  font-weight: 600;
+	}
+
+	.bio-image {
+	  text-align: center;
+	}
+
+	.bio-image img {
+	  border-radius: 50%;
+	}
+
+	.bio-content {
+	  text-align: left;
+	}
+
+	.bio-content p {
+	  font-weight: 600;
+	  font-size: 30px;
+	}
+
+
 
 /*--------------------------------------------------------------
 # Volunteers
