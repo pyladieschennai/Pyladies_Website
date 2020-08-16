@@ -17,6 +17,11 @@
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+    integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,6 +29,8 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -76,11 +83,11 @@
 
         <div class="row">
           <div class="col-lg-6">
-            <img src="assets/img/meetup.png " class="img-fluid" alt="">
+            <a href="http://pyladies.com/"><img src="assets/img/meetup.png " class="img-fluid" alt=""></a>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <h3>Who we are ?</h3>
-            <p style="text-align: center;">
+            <p style="text-align: left;">
               <b>PyLadies</b> is an international mentorship group with a focus on helping women become active
               participants and
               leaders in the <b>Python open-source community</b>. Our mission is to promote, educate and advance a
@@ -105,42 +112,70 @@
     <br>
 
     <!-- ======= What We Do Section ======= -->
-    <section id="what-we-do" class="what-we-do" style="background: #FFC0CB;">
+    <section id="what-we-do" class="what-we-do" style="background:pink" style="width: 50%; height: 20%;">
       <div class="container">
 
         <div class="section-title">
-          <h2>Events - What we do ?</h2>
-          <p>Magnam dolores commodi suscipit consequatur ex aliquid</p>
+          <h2>Events</h2>
+          <p>We host monthly meetups where Pythonistas can learn, share and contribute towards the fields of Core
+            Python, Data
+            Science, Web Development, Scientific Computing, Security, Game Development, etc. Join our<a
+              href="https://www.meetup.com/pyladieschennai/">Meetup group</a> to find out about upcoming events!
+          </p>
         </div>
 
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Tech Talk</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+        <!-- ======= EVENTS Section ======= -->
+
+        <section class="team" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+          <div class="container">
+
+            <div class="row">
+
+              <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="assets/img/PyLadies Chennai Chapter Launch.jpg" class="img-fluid" alt="">
+
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Tech Talk</h4>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="assets/img/PyLadies Chennai Hands-On!.jpg" class="img-fluid" alt="">
+
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Hands-On</h4>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="assets/img/PyLadies Chennai01.jpeg" class="img-fluid" alt="">
+
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;"> PyLadies @ PyCon</h4>
+
+                  </div>
+                </div>
+              </div>
+
+
             </div>
+
           </div>
+        </section><!-- End EVENTS Section -->
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Hans On</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Pycon</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
     </section><!-- End What We Do Section -->
 
 
@@ -156,82 +191,90 @@
 
         </div>
       </div>
-
-
-
-
-      <!-- ======= About Section ======= -->
-      <section id="about" class="about">
-        <div class="container" data-aos="fade-up">
-
-
-
-          <div class="row">
-            <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-              <img src="assets/img/team/Niharika Krishnan02.jpg" class="img-fluid" alt="">
-            </div>
-            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-
-              <p class="font-italic">
-                <h1><b style="color: #EE264D;">Niharika Krishnan</b></h1>
-                <br>
-                              Niharika is a <b>Machine Learning Engineer</b> at TCS, Chennai where she
-                              develops NLP based solutions for
-                              Walmart, US. She is
-                              passionate about technology and believes in leveraging AI to help people lead better lives! She
-                              actively contributes to
-                              the Python tech community and has spoken at conferences like<b> PyCon India'19, PyCon Canada’19,
-                              PyOhio'20</b>, etc. With her
-                              love for Python and a will to encourage young women into tech, she initiated the PyLadies Chapter in
-                              Chennai during her
-                              final year of undergraduate studies.
-
-                <!--   <a href="https://twitter.com/vishakha1809"><i class="icofont-twitter"></i></a>
-               <a href="https://www.linkedin.com/in/vishakha-tiwari-b7744b91/"><i class="icofont-linkedin"></i></a>  -->
-
+      <div class="container portfolio" style="margin-bottom: 0;">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="heading">
+              <img src="https://image.ibb.co/cbCMvA/logo.png" />
             </div>
           </div>
-
         </div>
-      </section><!-- End About Section -->
-
-      <!-- ======= About Section ======= -->
-      <section id="about" class="about">
-        <div class="container">
-
+        <div class="bio-info">
           <div class="row">
-            <div class="col-xl-6 col-lg-7" data-aos="fade-right">
-              <img src="assets/img/team/Vishakha.JPG" class="img-fluid" alt="">
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="bio-image">
+                    <img src="assets/img/team/Niharika Krishnan02.jpg" alt="image" class="img-fluid" width="300px"
+                      height="300px" style="border-radius: 10px;" />
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
-              <h1 data-aos="fade-up"><b style="color: #EE264D;">Vishakha Tiwari</b></h1>
-              <p data-aos="fade-up"><br>
-
-                <br>
-                  Vishakha Tiwari is an enthusiastic and innovative<b>software engineer</b> in
-                  Valuelabs, India. She is
-                  passionate about
-                  developing big data solutions. She has research paper and certifications in big data. She believes
-                  in
-                  giving back to the
-                  community and non-profit organizations which hold a special place in her heart. She is an organizer
-                  of
-                 <b>PyLadies Chennai</b>
-                  and Hyderabad Chapter, mentorship groups with a focus on helping more women to become active
-                  participants in Python
-                  open-source community.
-
-
-              </p>
-
-              <!-- <a href="https://twitter.com/vishakha1809"><i class="icofont-twitter"></i></a>
-          <a href="https://www.linkedin.com/in/vishakha-tiwari-b7744b91/"><i class="icofont-linkedin"></i></a>   --->
-
+            <div class="col-md-6">
+              <div class="bio-content">
+                <h3 style="color: #EE264D;">Niharika Krishnan</h3>
+                <h6>Niharika is a <b>Machine Learning Engineer</b> at TCS, Chennai where she
+                  develops NLP based solutions for
+                  Walmart, US. She is
+                  passionate about technology and believes in leveraging AI to help people lead better lives! She
+                  actively contributes to
+                  the Python tech community and has spoken at conferences like<b> PyCon India'19, PyCon Canada’19,
+                    PyOhio'20</b>, etc. With her
+                  love for Python and a will to encourage young women into tech, she initiated the PyLadies Chapter in
+                  Chennai during her
+                  final year of undergraduate studies.</p>
+              </div>
             </div>
           </div>
-
         </div>
+      </div>
+
+      <div class="container portfolio">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="heading">
+              <img src="https://image.ibb.co/cbCMvA/logo.png" />
+            </div>
+          </div>
+        </div>
+        <div class="bio-info">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="bio-image">
+                    <img src="assets/img/team/Vishakha01.jpg" alt="image" class="img-fluid" width="300px" height="300px"
+                      style="border-radius: 10px;" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <p class="bio-content" style="justify-content: left;">
+                <h3 style="color: #EE264D;">Vishakha Tiwari</h3>
+                Vishakha Tiwari is an enthusiastic and innovative<b>software engineer</b> in
+                Valuelabs, India. She is
+                passionate about
+                developing big data solutions. She has research paper and certifications in big data. She believes
+                in
+                giving back to the
+                community and non-profit organizations which hold a special place in her heart. She is an organizer
+                of
+                <b>PyLadies Chennai</b>
+                and Hyderabad Chapter, mentorship groups with a focus on helping more women to become active
+                participants in Python
+                open-source community.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
       </section><!-- End About Section -->
+
+
 
 
 
@@ -240,66 +283,141 @@
         <div class="section-title">
           <h2>Volunteers</h2>
 
-          <!-- ======= Steps Section ======= -->
-          <section id="steps" class="steps section-bg">
-            <div class="container">
 
-              <div class="row no-gutters">
+          <!-- ======= Team Section ======= -->
+          <section id="team" class="team section-bg">
+            <div class="container" data-aos="fade-up">
 
-                <div class="col-lg-2 col-md-6 content-item" data-aos="fade-in">
-                  <span></span>
-                  <h4>Abhishek</h4>
-                  <a href="https://www.linkedin.com/in/stalwartcoder/" style="color: #333;">Connect</a>
-                  </p>
+
+
+              <div class="row">
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                  <div class="member" data-aos="fade-up" data-aos-delay="100">
+                    <div class="member-img">
+                      <img src="assets/img/team/abhishek_mishra01.jpg" class="img-fluid" alt="">
+
+                    </div>
+                    <div class="member-info">
+                      <a href="https://www.linkedin.com/in/stalwartcoder/">
+                        <h4>Abhishek Mishra</h4>
+                      </a>
+
+                    </div>
+                  </div>
                 </div>
 
-                <div class="col-lg-2 col-md-6 content-item" data-aos="fade-in" data-aos-delay="100">
-                  <span></span>
-                  <h4>Ananya</h4>
-                  <a href="https://mobile.twitter.com/Ananya_Iyer" style="color: #333;">Connect</a>
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                  <div class="member" data-aos="fade-up" data-aos-delay="200">
+                    <div class="member-img">
+                      <img src="assets/img/team/ananya.jpeg" class="img-fluid" alt="">
+
+                    </div>
+                    <div class="member-info">
+                      <a href="https://mobile.twitter.com/Ananya_Iyer">
+                        <h4>Ananya Iyer</h4>
+                      </a>
+
+                    </div>
+                  </div>
                 </div>
 
-                <div class="col-lg-2 col-md-6 content-item" data-aos="fade-in" data-aos-delay="200">
-                  <span></span>
-                  <h4>Ramya</h4>
-                  <a href=" https://www.linkedin.com/in/ramya-kalyanasundaram-9a6305193"
-                    style="color: #333;">Connect</a>
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                  <div class="member" data-aos="fade-up" data-aos-delay="300">
+                    <div class="member-img">
+                      <img src="assets/img/team/ramya.jpg" class="img-fluid" alt="">
+
+                    </div>
+                    <div class="member-info">
+                      <a href="https://www.linkedin.com/in/ramya-kalyanasundaram-9a6305193">
+                        <h4>Ramya</h4>
+                      </a>
+
+                    </div>
+                  </div>
                 </div>
 
-                <div class="col-lg-2 col-md-6 content-item" data-aos="fade-in" data-aos-delay="300">
-                  <span></span>
-                  <h4>Sharmila</h4>
-                  <a href=" https://www.linkedin.com/in/sharmilas1wa" style="color: #333;">Connect</a>
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                  <div class="member" data-aos="fade-up" data-aos-delay="400">
+                    <div class="member-img">
+                      <img src="assets/img/team/sharmila.jpg" class="img-fluid" alt="">
+
+                    </div>
+                    <div class="member-info">
+                      <a href="https://www.linkedin.com/in/sharmilas1wa">
+                        <h4>Sharmila Gopirajan</h4>
+                      </a>
+
+                    </div>
+                  </div>
                 </div>
 
-                <div class="col-lg-2 col-md-6 content-item" data-aos="fade-in" data-aos-delay="400">
-                  <span></span>
-                  <h4>Swetha</h4>
-                  <a href="https://www.linkedin.com/in/shwetha-a-b28830139" style="color: #333;">Connect</a>
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                  <div class="member" data-aos="fade-up" data-aos-delay="100">
+                    <div class="member-img">
+                      <img src="assets/img/team/Smriti01.jpg" class="img-fluid" alt="">
+
+                    </div>
+                    <div class="member-info">
+                      <a href="https://www.linkedin.com/in/smriti-881a37162">
+                        <h4>Smriti</h4>
+                      </a>
+
+                    </div>
+                  </div>
                 </div>
 
-                <div class="col-lg-2 col-md-6 content-item" data-aos="fade-in" data-aos-delay="400">
-                  <span></span>
-                  <h4>Smriti</h4>
-                  <a href="https://www.linkedin.com/in/smriti-881a37162" style="color: #333;">Connect</a>
-                </div>
-                <div class="col-lg-2 col-md-6 content-item" data-aos="fade-in" data-aos-delay="400">
-                  <span></span>
-                  <h4>Unnati</h4>
-                  <p class="card-text"><a href=" https://linktr.ee/Ping_Unnati" style="color: #333;">Connect</a>
-                </div>
-                <div class="col-lg-2 col-md-6 content-item" data-aos="fade-in" data-aos-delay="400">
-                  <span></span>
-                  <h4>Yashasvi</h4>
-                  <a href="https://www.linkedin.com/in/yashasvi-misra-094511165/ " style="color: #333;">Connect</a>
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                  <div class="member" data-aos="fade-up" data-aos-delay="200">
+                    <div class="member-img">
+                      <img src="assets/img/team/Swetha01.jpg" class="img-fluid" alt="">
+
+                    </div>
+                    <div class="member-info">
+                      <a href="https://www.linkedin.com/in/shwetha-a-b28830139">
+                        <h4>Swetha</h4>
+                      </a>
+
+                    </div>
+                  </div>
                 </div>
 
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                  <div class="member" data-aos="fade-up" data-aos-delay="300">
+                    <div class="member-img">
+                      <img src="assets/img/team/unnati.jpg" class="img-fluid" alt="">
+
+                    </div>
+                    <div class="member-info">
+                      <a href="https://linktr.ee/Ping_Unnati">
+                        <h4>Unnati Mishra</h4>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                  <div class="member" data-aos="fade-up" data-aos-delay="400">
+                    <div class="member-img">
+                      <img src="assets/img/team/Yashasvi Mishra01.jpg" class="img-fluid" alt="">
+
+                    </div>
+                    <div class="member-info">
+                      <a href="https://www.linkedin.com/in/yashasvi-misra-094511165/">
+                        <h4>Yashasvi Mishra</h4>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
 
               </div>
 
             </div>
-          </section>
-          </section>
+          </section><!-- End Team Section -->
+
+
           <!-- End Steps Section -->
 
 
@@ -309,63 +427,53 @@
 
               <div class="section-title">
                 <h2>Resources</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
+                
               </div>
 
               <div class="row">
                 <div class="col-md-6">
                   <div class="icon-box">
-                    <i class="icofont-computer"></i>
-                    <h4><a href="#">Our Journey</a></h4>
-                    <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
-                      cupiditate
-                      non provident</p>
+                <i class="fas fa-user"></i>
+                    <h4><a href="http://pyladies.com/">About PyLadies </a></h4>
+                  
                   </div>
                 </div>
                 <div class="col-md-6 mt-4 mt-lg-0">
                   <div class="icon-box">
-                    <i class="icofont-chart-bar-graph"></i>
-                    <h4><a href="#">Dolor Sitema</a></h4>
-                    <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-                      tarad
-                      limino ata</p>
+                    <i class="icofont-file-python"></i>
+                    <h4><a href="https://www.python.org/psf/">Python Software Foundation</a></h4>
+                    
                   </div>
                 </div>
                 <div class="col-md-6 mt-4">
                   <div class="icon-box">
-                    <i class="icofont-image"></i>
-                    <h4><a href="#">Tech Thursday</a></h4>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                      pariatur
-                    </p>
+                    <i class="icofont-train-steam"></i>
+                    <h4><a href="#">Journey of PyLadies Chennai</a></h4>
+                  
                   </div>
                 </div>
                 <div class="col-md-6 mt-4">
                   <div class="icon-box">
-                    <i class="icofont-settings"></i>
-                    <h4><a href="#">Saturday Shoutout</a></h4>
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                      est
-                      laborum</p>
-                  </div>
-                </div>
-                <div class="col-md-6 mt-4">
-                  <div class="icon-box">
-                    <i class="icofont-earth"></i>
-                    <h4><a href="#">Magni Dolore</a></h4>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-                      deleniti atque</p>
+                    <i class="fab fa-github"></i>
+                    <h4><a href="https://github.com/pyladieschennai">Meetup Slides</a></h4>
+                   
                   </div>
                 </div>
                 <div class="col-md-6 mt-4">
                   <div class="icon-box">
                     <i class="icofont-tasks-alt"></i>
-                    <h4><a href="#">Eiusmod Tempor</a></h4>
-                    <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis
-                      est
-                      eligendi</p>
+                    <h4><a href="https://medium.com/pyladies-chennai">Tech Thursday</a></h4>
+                   
                   </div>
                 </div>
+                <div class="col-md-6 mt-4">
+                  <div class="icon-box">
+                    <i class="icofont-mega-phone"></i>
+                    <h4><a href="https://medium.com/pyladies-chennai">Saturday Shoutout</a></h4>
+                  
+                  </div>
+                </div>
+
               </div>
 
             </div>
@@ -378,113 +486,116 @@
             <div class="container" data-aos="fade-up">
 
               <div class="section-title">
-                <h2>Important Links</h2>
+                <h2>Connect</h2>
                 <p></p>
               </div>
-<!-- ======= Features Section ======= -->
-<section id="features" class="features">
-  <div class="container" data-aos="fade-up">
+              <!-- ======= Features Section ======= -->
+              <section id="features" class="features">
+                <div class="container" data-aos="fade-up">
 
-    <div class="row" data-aos="zoom-in" data-aos-delay="100">
-      <div class="col-lg-3 col-md-4">
-        <div class="icon-box">
-          <h3><a href="https://slackin.pyladies.com">Connect On Slack</a></h3>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-        <div class="icon-box">
-          
-          <h3><a href="https://bit.ly/pyladieschennai-speaker">Wanna give a talk?</a></h3>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-        <div class="icon-box">
-          
-          <h3><a href="https://bit.ly/pyladieschennai-volunteer">Want to volunteer?</a></h3>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-        <div class="icon-box">
-          
-          <h3><a href="http://bit.ly/pyladieschennai-host11">Host an event</a></h3>
-        </div>
-      </div>
+                  <div class="row" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-lg-3 col-md-4">
+                      <div class="icon-box">
+                        <h3><a href="https://slackin.pyladies.com"> Join Global PyLadies on Slack</a></h3>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                      <div class="icon-box">
 
+                        <h3><a href="https://bit.ly/pyladieschennai-speaker">Want to give a talk/hands-on session?</a>
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                      <div class="icon-box">
 
-    </div>
+                        <h3><a href="https://bit.ly/pyladieschennai-volunteer">Want to volunteer?</a></h3>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+                      <div class="icon-box">
 
-  </div>
-</section><!-- End Features Section -->
+                        <h3><a href="http://bit.ly/pyladieschennai-host11">Interested in hosting / sponsoring an
+                            event?</a>
+                        </h3>
+                      </div>
+                    </div>
 
 
-
-
-          <!-- ======= TWITTER Section ======= -->
-          <div class="col align-self-center m-auto">
-            <section id="#" class="text-center">
-              <div class="container">
-  
+                  </div>
 
                 </div>
+              </section><!-- End Features Section -->
 
-                <a class="twitter-timeline" data-width="500" data-height="500" data-theme="light"
-                  href="https://twitter.com/pyladieschennai?ref_src=twsrc%5Etfw">Tweets by pyladieschennai</a>
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+              <!-- ======= TWITTER Section ======= -->
+              <div class="col align-self-center m-auto">
+                <section id="#" class="text-center">
+                  <div class="container">
+
+
+                  </div>
+
+                  <a class="twitter-timeline" data-width="500" data-height="500" data-theme="light"
+                    href="https://twitter.com/pyladieschennai?ref_src=twsrc%5Etfw">Tweets by pyladieschennai</a>
+                  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 
               </div>
-            </section><!-- TWITTER Section -->
+          </section><!-- TWITTER Section -->
 
-          </div>
+        </div>
 
   </main><!-- End #main -->
 
 
   <!-- ======= Footer ======= -->
   <section id="contact">
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
 
-          <div class="col-lg-12 col-md-12">
-            <div class="footer-info">
-              <h3>PyLadies Chennai</h3>
-              <p>
+            <div class="col-lg-12 col-md-12">
+              <div class="footer-info">
+                <h3>PyLadies Chennai</h3>
+                <p>
 
-                <strong>Phone:</strong>+201028271727
-                <br>
-                <strong>Email:</strong>chn@pyladies.com <br>
-              </p>
-              <div class="social-links mt-3">
-                <a href="https://twitter.com/pyladieschennai" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="https://www.facebook.com/pyladiesofchennai" class="facebook"><i
-                    class="bx bxl-facebook"></i></a>
-                <a href="https://github.com/pyladieschennai" class="github"><i class="bx bxl-github"></i></a>
-                <a href=" https://www.linkedin.com/company/pyladieschennai/" class="linkedin"><i
-                    class="bx bxl-linkedin"></i></a>
+                  <strong>Phone:</strong>+201028271727
+                  <br>
+                  <strong>Email:</strong>chn@pyladies.com <br>
+                </p>
+                <div class="social-links mt-3">
+                  <a href="https://twitter.com/pyladieschennai" class="twitter"><i class="bx bxl-twitter"></i></a>
+                  <a href="https://www.facebook.com/pyladiesofchennai" class="facebook"><i
+                      class="bx bxl-facebook"></i></a>
+                  <a href="https://github.com/pyladieschennai" class="github"><i class="bx bxl-github"></i></a>
+                  <a href=" https://www.linkedin.com/company/pyladieschennai/" class="linkedin"><i
+                      class="bx bxl-linkedin"></i></a>
+                </div>
               </div>
             </div>
+
+
+
+
           </div>
-
-
-
-
         </div>
       </div>
-    </div>
 
-    <div class="container">
-      <div class="copyright" style="color: black;">
-        &copy; Copyright 2020 <strong><span style="color:#EE264D ;">PyLadies Chennai</span></strong>. All Rights
-        Reserved
-        <br>
-        <a href="https://pyladies.com/CodeOfConduct/" style="color: black;">Code of Conduct</a>
+      <div class="container">
+        <div class="copyright" style="color: black;">
+          &copy; Copyright 2020 <strong><span style="color:#EE264D ;">PyLadies Chennai</span></strong>. All Rights
+          Reserved
+          <br>
+          <a href="https://pyladies.com/CodeOfConduct/" style="color: black;">Code of Conduct</a>
+        </div>
+
       </div>
-
-    </div>
-  </footer><!-- End Footer -->
+    </footer><!-- End Footer -->
   </section>
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
