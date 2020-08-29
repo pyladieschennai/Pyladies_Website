@@ -23,10 +23,10 @@ This is the PyLadies Chennai team Website📱. It is a fully responsive website 
 🆚Code
 
 <h1>Deployment</h1>
-	✔️Netlify
+	Cuurently on ✔️Netlify
 
 <h1>Created and Deployed by</h1>
-  <b>Unnati Mishra🙎</b>
+ <a href="https://linktr.ee/Ping_Unnati"> <b>Unnati Mishra🙎</b></a>
   <br><br>
   As you know Plagiarism is bad so, if you want to use the code then Please don't forget to give the credits😇
   
